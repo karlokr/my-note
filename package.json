@@ -1,0 +1,35 @@
+{
+  "name": "hoppy-hour-node",
+  "version": "1.0.0",
+  "description": "The back-end service for Hoppy Hour",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/karlokr/hoppy-hour-node.git"
+  },
+  "keywords": [
+    "hoppy",
+    "hour"
+  ],
+  "author": "The Pillarmen Inc.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/karlokr/hoppy-hour-node/issues"
+  },
+  "homepage": "https://github.com/karlokr/hoppy-hour-node#readme",
+  "dependencies": {
+    "bcrypt": "^4.0.1",
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.19.0",
+    "client-sessions": "^0.8.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-session": "^1.17.0",
+    "mongodb": "^3.4.0",
+    "mongoose": "^5.9.3",
+    "path": "^0.12.7"
+  }
+}
